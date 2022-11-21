@@ -1,0 +1,101 @@
+rank,title,release_date,genre,production_company,budget,revenue,runtime,average_rating
+1,The Shawshank Redemption,23/09/1994,Drama,Warner Bros,25,28,142,8.5
+2,The Godfather,14/03/1972,Crime,Paramount Pictures,6,245,175,8.5
+3,Pulp Fiction,10/09/1994,Thriller,Miramax Films,8,213,154,8.3
+4,The Dark Knight,16/07/2008,Crime,DC Comics,185,1004,152,8.3
+5,Whiplash,10/10/2014,Drama,Bold Films,3,13,105,8.3
+6,Fight Club,15/10/1999,Drama,Twentieth Century Fox Film Corporation,63,100,139,8.3
+7,Schindler's List,29/11/1993,Drama,Universal Pictures,22,321,195,8.3
+8,La vita è bella,20/12/1997,Comedy,Miramax Films,20,229,116,8.3
+9,Psycho,16/06/1960,Thriller,Paramount Pictures,1,32,109,8.3
+10,The Godfather: Part II,20/12/1974,Crime,Paramount Pictures,13,47,200,8.3
+11,One Flew Over the Cuckoo's Nest,18/11/1975,Drama,United Artists,3,108,133,8.3
+12,Forrest Gump,06/07/1994,Comedy,Paramount Pictures,55,677,142,8.2
+13,Star Wars,25/05/1977,Science Fiction,Twentieth Century Fox Film Corporation,11,775,121,8.1
+14,Interstellar,05/11/2014,Science Fiction,Paramount Pictures,165,675,169,8.1
+15,The Lord of the Rings: The Return of the King,01/12/2003,Fantasy,WingNut Films,94,1118,201,8.1
+16,Inception,14/07/2010,Science Fiction,Legendary Pictures,160,825,148,8.1
+17,The Lord of the Rings: The Fellowship of the Ring,18/12/2001,Fantasy,WingNut Films,93,871,178,8
+18,The Imitation Game,14/11/2014,History,Black Bear Pictures,14,233,113,8
+19,The Lord of the Rings: The Two Towers,18/12/2002,Fantasy,WingNut Films,79,926,179,8
+20,Back to the Future,03/07/1985,Adventure,Universal Pictures,19,381,116,8
+21,Gone Girl,01/10/2014,Thriller,Twentieth Century Fox Film Corporation,61,369,145,7.9
+22,Blade Runner,25/06/1982,Science Fiction,Shaw Brothers,28,33,117,7.9
+23,Guardians of the Galaxy,30/07/2014,Science Fiction,Marvel Studios,170,773,121,7.9
+24,The Matrix,30/03/1999,Action,Village Roadshow Pictures,63,463,136,7.9
+25,12 Years a Slave,18/10/2013,History,Plan B Entertainment,20,187,134,7.9
+26,Harry Potter and the Deathly Hallows: Part 2,07/07/2011,Fantasy,Warner Bros,125,1342,130,7.9
+27,Big Hero 6,24/10/2014,Animation,Walt Disney Pictures,165,652,102,7.8
+28,Harry Potter and the Prisoner of Azkaban,31/05/2004,Fantasy,1492 Pictures,130,789,141,7.7
+29,Zootopia,11/02/2016,Animation,Walt Disney Pictures,150,1023,108,7.7
+30,Kill Bill: Vol. 1,10/10/2003,Action,Miramax Films,30,180,111,7.7
+31,Guardians of the Galaxy Vol. 2,19/04/2017,Science Fiction,Walt Disney Pictures,200,863,137,7.6
+32,Logan,28/02/2017,Action,Twentieth Century Fox Film Corporation,97,616,137,7.6
+33,Me Before You,02/06/2016,Romance,New Line Cinema,20,207,110,7.6
+34,Edge of Tomorrow,27/05/2014,Action,Village Roadshow Pictures,178,370,113,7.6
+35,Kingsman: The Secret Service,29/01/2015,Action,Twentieth Century Fox Film Corporation,81,414,130,7.6
+36,El laberinto del fauno,27/05/2006,Fantasy,Estudios Picasso,19,83,118,7.6
+37,The Martian,30/09/2015,Science Fiction,Twentieth Century Fox Film Corporation,108,630,141,7.6
+38,Finding Nemo,30/05/2003,Animation,Pixar Animation Studios,94,940,100,7.6
+39,The Book of Henry,16/06/2017,Thriller,Sidney Kimmel Entertainment,10,4,105,7.6
+40,Pirates of the Caribbean: The Curse of the Black Pearl,09/07/2003,Adventure,Walt Disney Pictures,140,655,143,7.5
+41,Harry Potter and the Philosopher's Stone,16/11/2001,Fantasy,1492 Pictures,125,976,152,7.5
+42,Star Wars: The Force Awakens,15/12/2015,Science Fiction,Lucasfilm,245,2068,136,7.5
+43,Dunkirk,19/07/2017,Action,Canal+,100,519,107,7.5
+44,Batman Begins,10/06/2005,Action,DC Comics,150,374,140,7.5
+45,Titanic,18/11/1997,Drama,Paramount Pictures,200,1845,194,7.5
+46,Monsters Inc.,01/11/2001,Animation,Walt Disney Pictures,115,562,92,7.5
+47,X-Men: Days of Future Past,15/05/2014,Action,Twentieth Century Fox Film Corporation,250,747,131,7.5
+48,Harry Potter and the Goblet of Fire,05/11/2005,Fantasy,Patalex IV Productions Limited,150,895,157,7.5
+49,Deadpool,09/02/2016,Action,Twentieth Century Fox Film Corporation,58,783,108,7.4
+50,The Avengers,25/04/2012,Science Fiction,Paramount Pictures,220,1519,143,7.4
+51,Wind River,03/08/2017,Action,Thunder Road Pictures,11,184,111,7.4
+52,Fury,15/10/2014,Action,Columbia Pictures,68,211,135,7.4
+53,Rogue One: A Star Wars Story,14/12/2016,Science Fiction,Lucasfilm,200,105,133,7.4
+54,Harry Potter and the Chamber of Secrets,13/11/2002,Fantasy,1492 Pictures,100,876,161,7.4
+55,The Hunger Games: Catching Fire,15/11/2013,Science Fiction,Lionsgate,130,847,146,7.4
+56,Dawn of the Planet of the Apes,26/06/2014,Science Fiction,Ingenious Media,170,710,130,7.3
+57,Avengers: Age of Ultron,22/04/2015,Science Fiction,Marvel Studios,280,1405,141,7.3
+58,Creed,25/11/2015,Drama,New Line Cinema,37,173,133,7.3
+59,Mad Max: Fury Road,13/05/2015,Action,Village Roadshow Pictures,150,378,120,7.3
+60,Furious 7,01/04/2015,Action,Universal Pictures,190,1506,137,7.3
+61,Wonder Woman,30/05/2017,Action,Dune Entertainment,149,820,141,7.2
+62,Baby Driver,28/06/2017,Action,Big Talk Productions,34,224,113,7.2
+63,Avatar,10/12/2009,Science Fiction,Ingenious Film Partners,237,2787,162,7.2
+64,Fantastic Beasts and Where to Find Them,16/11/2016,Adventure,Warner Bros,180,809,133,7.2
+65,Get Out,24/02/2017,Thriller,Blumhouse Productions,5,252,104,7.2
+66,Arrival,10/11/2016,Thriller,Paramount Pictures,47,203,113,7.2
+67,Captain America: Civil War,27/04/2016,Action,Studio Babelsberg,250,1153,147,7.1
+68,Doctor Strange,25/10/2016,Action,Walt Disney Pictures,165,677,115,7.1
+69,The Hobbit: The Battle of the Five Armies,10/12/2014,Fantasy,WingNut Films,250,956,144,7.1
+70,John Wick,22/10/2014,Action,Summit Entertainment,20,88,101,7
+71,The Maze Runner,10/09/2014,Action,Ingenious Media,34,348,113,7
+72,Rise of the Planet of the Apes,03/08/2011,Science Fiction,Ingenious Film Partners,93,482,105,7
+73,Pirates of the Caribbean: Dead Man's Chest,20/06/2006,Adventure,Walt Disney Pictures,200,1065,151,7
+74,Split,15/11/2016,Thriller,Universal Pictures,9,276,117,7
+75,Ant-Man,14/07/2015,Action,Marvel Studios,130,519,117,7
+76,Despicable Me 2,25/06/2013,Animation,Universal Pictures,76,970,98,7
+77,Pirates of the Caribbean: At World's End,19/05/2007,Adventure,Walt Disney Pictures,300,961,169,6.9
+78,Beauty and the Beast,16/03/2017,Romance,Walt Disney Pictures,160,1262,129,6.8
+79,The Fate of the Furious,12/04/2017,Action,Universal Pictures,250,1238,136,6.8
+80,Before I Fall,02/03/2017,Thriller,Jon Shestack Productions,5,10,98,6.8
+81,Thor: The Dark World,29/10/2013,Action,Marvel Studios,170,644,112,6.8
+82,Spider-Man,01/05/2002,Action,Columbia Pictures,139,821,121,6.8
+83,War for the Planet of the Apes,11/07/2017,Science Fiction,Chernin Entertainment,152,369,140,6.7
+84,John Wick: Chapter 2,08/02/2017,Action,Thunder Road Pictures,40,171,122,6.7
+85,Now You See Me 2,02/06/2016,Action,Summit Entertainment,90,334,129,6.7
+86,Pacific Rim,11/07/2013,Adventure,Legendary Pictures,180,407,131,6.7
+87,World War Z,20/06/2013,Science Fiction,Paramount Pictures,200,531,116,6.7
+88,Don't Breathe,25/08/2016,Thriller,Ghost House Pictures,9,157,88,6.7
+89,The Hunger Games: Mockingjay - Part 1,18/11/2014,Science Fiction,Lionsgate,125,752,123,6.6
+90,Pirates of the Caribbean: Dead Men Tell No Tales,23/05/2017,Adventure,Walt Disney Pictures,230,794,129,6.6
+91,Chappie,04/03/2015,Action,Columbia Pictures Ollin Studio,49,104,120,6.6
+92,Thor,21/04/2011,Action,Marvel Studios,150,449,115,6.6
+93,The Purge: Anarchy,17/07/2014,Thriller,Universal Pictures,9,108,104,6.6
+94,The Hunger Games: Mockingjay - Part 2,18/11/2015,Science Fiction,Studio Babelsberg,160,653,137,6.6
+95,Captain Underpants: The First Epic Movie,01/06/2017,Animation,DreamWorks Animation,38,108,89,6.5
+96,King Arthur: Legend of the Sword,27/04/2017,Drama,Village Roadshow Pictures,175,146,126,6.5
+97,Maze Runner: The Scorch Trials,09/09/2015,Action,Gotham Group,61,311,132,6.5
+98,Miss Peregrine's Home for Peculiar Children,28/09/2016,Adventure,Ingenious Media Entertainment,110,296,127,6.5
+99,Jurassic World,09/06/2015,Adventure,Universal Studios,150,1513,124,6.5
+100,Shrek,29/06/2001,Animation,DreamWorks Animation,60,487,131,6.5

@@ -1,0 +1,300 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module assignment_A00304386</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>assignment_A00304386</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cmasters%5Capplied%20scriting%20lanuguages%5Cassignments%5Cassignment_a00304386.py">c:\masters\applied scriting lanuguages\assignments\assignment_a00304386.py</a></font></td></tr></table>
+    <p><tt>#A00304386&nbsp;-&nbsp;Data&nbsp;Analysis&nbsp;on&nbsp;a&nbsp;Movies&nbsp;dataset&nbsp;from&nbsp;a&nbsp;CSV&nbsp;file</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="matplotlib.pyplot.html">matplotlib.pyplot</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-budget_analysis"><strong>budget_analysis</strong></a>(selection)</dt><dd><tt>Menu&nbsp;for&nbsp;the&nbsp;budget&nbsp;analysis<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+selection&nbsp;:&nbsp;string&nbsp;-&nbsp;user&nbsp;entry</tt></dd></dl>
+ <dl><dt><a name="-calc_deviation"><strong>calc_deviation</strong></a>(var_list)</dt><dd><tt>Calculates&nbsp;the&nbsp;deviation&nbsp;values&nbsp;from&nbsp;the&nbsp;mean&nbsp;for&nbsp;the&nbsp;correlation&nbsp;calculation<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+var_list&nbsp;:&nbsp;list&nbsp;-&nbsp;the&nbsp;numbers&nbsp;to&nbsp;find&nbsp;the&nbsp;deviations&nbsp;for<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+deviations&nbsp;:&nbsp;list&nbsp;-&nbsp;the&nbsp;deviation&nbsp;values&nbsp;from&nbsp;the&nbsp;mean&nbsp;for&nbsp;the&nbsp;correlation&nbsp;calculation</tt></dd></dl>
+ <dl><dt><a name="-calc_iqr"><strong>calc_iqr</strong></a>(numbers)</dt><dd><tt>Calculates&nbsp;the&nbsp;interquartile&nbsp;value<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+numbers&nbsp;:&nbsp;list&nbsp;-&nbsp;the&nbsp;numbers&nbsp;to&nbsp;find&nbsp;the&nbsp;interquartile&nbsp;for<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+iqr&nbsp;:&nbsp;The&nbsp;interquartile&nbsp;value</tt></dd></dl>
+ <dl><dt><a name="-calc_max"><strong>calc_max</strong></a>(numbers)</dt><dd><tt>Calculates&nbsp;the&nbsp;largest&nbsp;value<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+numbers&nbsp;:&nbsp;list&nbsp;-&nbsp;the&nbsp;numbers&nbsp;to&nbsp;find&nbsp;the&nbsp;largest&nbsp;value&nbsp;from<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+nums_max&nbsp;:&nbsp;The&nbsp;largest&nbsp;value</tt></dd></dl>
+ <dl><dt><a name="-calc_mean"><strong>calc_mean</strong></a>(numbers)</dt><dd><tt>Calculate&nbsp;the&nbsp;mean&nbsp;value<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+numbers&nbsp;:&nbsp;list&nbsp;-&nbsp;the&nbsp;list&nbsp;to&nbsp;calculate&nbsp;the&nbsp;mean&nbsp;from<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+mean&nbsp;:&nbsp;The&nbsp;mean&nbsp;value&nbsp;of&nbsp;the&nbsp;list</tt></dd></dl>
+ <dl><dt><a name="-calc_median"><strong>calc_median</strong></a>(numbers)</dt><dd><tt>Calculates&nbsp;the&nbsp;median&nbsp;value&nbsp;from&nbsp;a&nbsp;list<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+numbers&nbsp;:&nbsp;list&nbsp;-&nbsp;the&nbsp;numbers&nbsp;to&nbsp;find&nbsp;the&nbsp;median&nbsp;for<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+median&nbsp;:&nbsp;The&nbsp;median&nbsp;value</tt></dd></dl>
+ <dl><dt><a name="-calc_median_skewness"><strong>calc_median_skewness</strong></a>(numbers)</dt><dd><tt>Calculates&nbsp;Pearson's&nbsp;median&nbsp;skewness&nbsp;value<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+numbers&nbsp;:&nbsp;list&nbsp;-&nbsp;the&nbsp;numbers&nbsp;to&nbsp;find&nbsp;the&nbsp;median&nbsp;skewness&nbsp;for<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+med_skewness&nbsp;:&nbsp;The&nbsp;median&nbsp;skewness&nbsp;value</tt></dd></dl>
+ <dl><dt><a name="-calc_min"><strong>calc_min</strong></a>(numbers)</dt><dd><tt>Calculates&nbsp;the&nbsp;smallest&nbsp;value<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+numbers&nbsp;:&nbsp;list&nbsp;-&nbsp;the&nbsp;numbers&nbsp;to&nbsp;find&nbsp;the&nbsp;smallest&nbsp;value&nbsp;from<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+nums_min&nbsp;:&nbsp;The&nbsp;smallest&nbsp;value</tt></dd></dl>
+ <dl><dt><a name="-calc_mode"><strong>calc_mode</strong></a>(numbers)</dt><dd><tt>Calculates&nbsp;the&nbsp;most&nbsp;common&nbsp;value&nbsp;<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+numbers&nbsp;:&nbsp;list&nbsp;-&nbsp;the&nbsp;numbers&nbsp;to&nbsp;find&nbsp;the&nbsp;mode&nbsp;for<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+mode&nbsp;:&nbsp;The&nbsp;mode&nbsp;value</tt></dd></dl>
+ <dl><dt><a name="-calc_mode_skewness"><strong>calc_mode_skewness</strong></a>(numbers)</dt><dd><tt>Calculates&nbsp;Pearson's&nbsp;mode&nbsp;skewness&nbsp;value<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+numbers&nbsp;:&nbsp;list&nbsp;-&nbsp;the&nbsp;numbers&nbsp;to&nbsp;find&nbsp;the&nbsp;mode&nbsp;skewness&nbsp;for<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+mode_skewness&nbsp;:&nbsp;The&nbsp;mode&nbsp;skewness&nbsp;value</tt></dd></dl>
+ <dl><dt><a name="-calc_num_vals"><strong>calc_num_vals</strong></a>(numbers)</dt><dd><tt>Count&nbsp;the&nbsp;number&nbsp;of&nbsp;values&nbsp;in&nbsp;a&nbsp;list<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+numbers&nbsp;:&nbsp;list&nbsp;-&nbsp;the&nbsp;numbers&nbsp;to&nbsp;count&nbsp;the&nbsp;number&nbsp;of<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+count_nums&nbsp;:&nbsp;The&nbsp;n&nbsp;of&nbsp;numbers&nbsp;in&nbsp;a&nbsp;list</tt></dd></dl>
+ <dl><dt><a name="-calc_product"><strong>calc_product</strong></a>(x_deviation, y_deviation)</dt><dd><tt>Calculates&nbsp;the&nbsp;products&nbsp;of&nbsp;the&nbsp;deviations&nbsp;for&nbsp;the&nbsp;2&nbsp;variable&nbsp;lists<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+x_deviation,&nbsp;y_deviation&nbsp;:&nbsp;lists&nbsp;-&nbsp;the&nbsp;first&nbsp;list&nbsp;of&nbsp;deviation&nbsp;values,&nbsp;the&nbsp;second&nbsp;list&nbsp;of&nbsp;deviation&nbsp;values<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+xy_deviations&nbsp;:&nbsp;list&nbsp;-&nbsp;the&nbsp;sum&nbsp;of&nbsp;products&nbsp;for&nbsp;the&nbsp;deviations&nbsp;of&nbsp;both&nbsp;lists&nbsp;for&nbsp;the&nbsp;correlation&nbsp;calculation</tt></dd></dl>
+ <dl><dt><a name="-calc_range"><strong>calc_range</strong></a>(numbers)</dt><dd><tt>Calculates&nbsp;the&nbsp;difference&nbsp;between&nbsp;the&nbsp;highest&nbsp;and&nbsp;lowest&nbsp;number<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+numbers&nbsp;:&nbsp;list&nbsp;-&nbsp;the&nbsp;numbers&nbsp;to&nbsp;find&nbsp;the&nbsp;range&nbsp;for<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+nums_range&nbsp;:&nbsp;The&nbsp;range&nbsp;value</tt></dd></dl>
+ <dl><dt><a name="-calc_square"><strong>calc_square</strong></a>(var_list)</dt><dd><tt>Squares&nbsp;the&nbsp;values&nbsp;of&nbsp;a&nbsp;list&nbsp;and&nbsp;adds&nbsp;them&nbsp;to&nbsp;calculate&nbsp;correlation&nbsp;denominator<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+var_list&nbsp;:&nbsp;list&nbsp;-&nbsp;the&nbsp;numbers&nbsp;to&nbsp;calculate&nbsp;squares&nbsp;for<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+denominator&nbsp;:&nbsp;The&nbsp;denominator&nbsp;for&nbsp;the&nbsp;correlation&nbsp;equation</tt></dd></dl>
+ <dl><dt><a name="-calc_std_dev"><strong>calc_std_dev</strong></a>(numbers)</dt><dd><tt>Calculates&nbsp;the&nbsp;standard&nbsp;deviation<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+numbers&nbsp;:&nbsp;list&nbsp;-&nbsp;the&nbsp;numbers&nbsp;to&nbsp;find&nbsp;the&nbsp;standard&nbsp;deviation&nbsp;for<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+stddev&nbsp;:&nbsp;The&nbsp;standard&nbsp;deviation&nbsp;value</tt></dd></dl>
+ <dl><dt><a name="-calc_sum"><strong>calc_sum</strong></a>(numbers)</dt><dd><tt>Add&nbsp;all&nbsp;values&nbsp;in&nbsp;a&nbsp;list&nbsp;and&nbsp;calculate&nbsp;the&nbsp;total<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+numbers&nbsp;:&nbsp;list&nbsp;-&nbsp;the&nbsp;numbers&nbsp;to&nbsp;add&nbsp;together<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+total_nums&nbsp;:&nbsp;The&nbsp;sum&nbsp;of&nbsp;a&nbsp;list&nbsp;of&nbsp;numbers</tt></dd></dl>
+ <dl><dt><a name="-display_budget"><strong>display_budget</strong></a>()</dt><dd><tt>''''Displays&nbsp;the&nbsp;statistical&nbsp;calculation&nbsp;results&nbsp;for&nbsp;budget'''</tt></dd></dl>
+ <dl><dt><a name="-display_revenue"><strong>display_revenue</strong></a>()</dt><dd><tt>''''Displays&nbsp;the&nbsp;statistical&nbsp;calculation&nbsp;results&nbsp;for&nbsp;revenue'''</tt></dd></dl>
+ <dl><dt><a name="-display_subcategories"><strong>display_subcategories</strong></a>()</dt><dd><tt>''''Displays&nbsp;the&nbsp;statistical&nbsp;calculation&nbsp;results&nbsp;for&nbsp;subcategories'''</tt></dd></dl>
+ <dl><dt><a name="-distinct_categories"><strong>distinct_categories</strong></a>(dictionary)</dt><dd><tt>Calculate&nbsp;how&nbsp;many&nbsp;keys&nbsp;exist&nbsp;in&nbsp;a&nbsp;dictionary<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+dictionary&nbsp;:&nbsp;dictionary&nbsp;-&nbsp;the&nbsp;dictionary&nbsp;to&nbsp;find&nbsp;the&nbsp;key&nbsp;count&nbsp;for<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+categories&nbsp;:&nbsp;The&nbsp;number&nbsp;of&nbsp;keys&nbsp;in&nbsp;a&nbsp;dictionary</tt></dd></dl>
+ <dl><dt><a name="-draw_barchart"><strong>draw_barchart</strong></a>(title, axis)</dt><dd><tt>Draws&nbsp;a&nbsp;bar&nbsp;chart<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+title,&nbsp;axis&nbsp;:&nbsp;the&nbsp;title&nbsp;name,&nbsp;the&nbsp;axis&nbsp;values<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+a&nbsp;matplotlib&nbsp;styled&nbsp;bar&nbsp;chart</tt></dd></dl>
+ <dl><dt><a name="-draw_boxplot1"><strong>draw_boxplot1</strong></a>(var_list, title, ticks)</dt><dd><tt>Draw&nbsp;a&nbsp;boxplot<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+var_list,&nbsp;title,&nbsp;ticks&nbsp;:&nbsp;-&nbsp;variable&nbsp;list&nbsp;data,&nbsp;title&nbsp;name,&nbsp;tick&nbsp;intervals<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+A&nbsp;matplotlib&nbsp;styled&nbsp;boxplot</tt></dd></dl>
+ <dl><dt><a name="-draw_boxplot_multi"><strong>draw_boxplot_multi</strong></a>(dictionary)</dt><dd><tt>Draws&nbsp;a&nbsp;multi&nbsp;item&nbsp;boxplot<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+title,&nbsp;axis,&nbsp;dictionary&nbsp;:&nbsp;the&nbsp;title&nbsp;name,&nbsp;the&nbsp;axis&nbsp;values,&nbsp;dictionary&nbsp;with&nbsp;keys&nbsp;and&nbsp;values<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+a&nbsp;matplotlib&nbsp;styled&nbsp;multi&nbsp;item&nbsp;boxplot</tt></dd></dl>
+ <dl><dt><a name="-draw_histogram"><strong>draw_histogram</strong></a>(var_list, title, limits, bins, xlabel)</dt><dd><tt>Draw&nbsp;a&nbsp;histogram<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+var_list,&nbsp;title,&nbsp;limits,&nbsp;bins,&nbsp;xlabel&nbsp;:&nbsp;the&nbsp;variable&nbsp;data,&nbsp;title&nbsp;name,&nbsp;bins&nbsp;numbers,&nbsp;x&nbsp;axis&nbsp;label&nbsp;<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+A&nbsp;matplotlib&nbsp;styled&nbsp;histogram</tt></dd></dl>
+ <dl><dt><a name="-draw_pie"><strong>draw_pie</strong></a>(title, value, key)</dt><dd><tt>Draws&nbsp;a&nbsp;pie&nbsp;chart<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+title,&nbsp;value,&nbsp;key&nbsp;:&nbsp;the&nbsp;title&nbsp;name,&nbsp;the&nbsp;values,&nbsp;the&nbsp;keys<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+a&nbsp;matplotlib&nbsp;styled&nbsp;pie&nbsp;chart</tt></dd></dl>
+ <dl><dt><a name="-draw_scatterplot"><strong>draw_scatterplot</strong></a>(var1, var2)</dt><dd><tt>Draw&nbsp;a&nbsp;scatterplot<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+var1,&nbsp;var2&nbsp;:&nbsp;lists&nbsp;-&nbsp;variable&nbsp;list&nbsp;1,&nbsp;variable&nbsp;list&nbsp;2<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+A&nbsp;matplotlib&nbsp;styled&nbsp;scatterplot</tt></dd></dl>
+ <dl><dt><a name="-genre_analysis"><strong>genre_analysis</strong></a>(selection)</dt><dd><tt>Menu&nbsp;for&nbsp;the&nbsp;subcategory&nbsp;analysis<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+selection&nbsp;:&nbsp;string&nbsp;-&nbsp;user&nbsp;entry</tt></dd></dl>
+ <dl><dt><a name="-get_frequency"><strong>get_frequency</strong></a>(avg_list)</dt><dd><tt>Calculate&nbsp;the&nbsp;frequency&nbsp;for&nbsp;each&nbsp;value&nbsp;in&nbsp;a&nbsp;list<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+avg_list&nbsp;:&nbsp;list&nbsp;-&nbsp;the&nbsp;list&nbsp;to&nbsp;find&nbsp;the&nbsp;frequency&nbsp;count&nbsp;for<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+genres&nbsp;:&nbsp;a&nbsp;dictionary&nbsp;with&nbsp;the&nbsp;frequency&nbsp;counts&nbsp;and&nbsp;subcategories</tt></dd></dl>
+ <dl><dt><a name="-get_total_avg"><strong>get_total_avg</strong></a>(dictionary1, dictionary2)</dt><dd><tt>Divides&nbsp;one&nbsp;dictionaries&nbsp;values&nbsp;by&nbsp;the&nbsp;other&nbsp;-&nbsp;provided&nbsp;they&nbsp;have&nbsp;the&nbsp;same&nbsp;number&nbsp;of&nbsp;keys<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+dicionary1,&nbsp;dictionary2&nbsp;:&nbsp;dictionaries&nbsp;-&nbsp;the&nbsp;2&nbsp;dictionaries&nbsp;to&nbsp;divide<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+result&nbsp;:&nbsp;a&nbsp;dictionary&nbsp;with&nbsp;the&nbsp;resulting&nbsp;values&nbsp;after&nbsp;division</tt></dd></dl>
+ <dl><dt><a name="-highest_avg"><strong>highest_avg</strong></a>(dictionary)</dt><dd><tt>Calculates&nbsp;the&nbsp;highest&nbsp;key&nbsp;in&nbsp;a&nbsp;dictionary<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+dictionary&nbsp;:&nbsp;dictionary&nbsp;-&nbsp;the&nbsp;dictionary&nbsp;to&nbsp;find&nbsp;the&nbsp;highest&nbsp;key&nbsp;for<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+high_key,&nbsp;high_val&nbsp;:&nbsp;a&nbsp;list&nbsp;with&nbsp;the&nbsp;highest&nbsp;value&nbsp;and&nbsp;its&nbsp;key</tt></dd></dl>
+ <dl><dt><a name="-lowest_avg"><strong>lowest_avg</strong></a>(dictionary)</dt><dd><tt>Calculates&nbsp;the&nbsp;lowest&nbsp;key&nbsp;in&nbsp;a&nbsp;dictionary<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+dictionary&nbsp;:&nbsp;dictionary&nbsp;-&nbsp;the&nbsp;dictionary&nbsp;to&nbsp;find&nbsp;the&nbsp;lowest&nbsp;key&nbsp;for<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+low_key,&nbsp;low_val&nbsp;:&nbsp;a&nbsp;list&nbsp;with&nbsp;the&nbsp;lowest&nbsp;value&nbsp;and&nbsp;its&nbsp;key</tt></dd></dl>
+ <dl><dt><a name="-open_file"><strong>open_file</strong></a>(file)</dt><dd><tt>Open&nbsp;a&nbsp;CSV&nbsp;file,&nbsp;split&nbsp;coulumns,&nbsp;converts&nbsp;selected&nbsp;datatypes<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+file&nbsp;:&nbsp;CSV&nbsp;file</tt></dd></dl>
+ <dl><dt><a name="-revenue_analysis"><strong>revenue_analysis</strong></a>(selection)</dt><dd><tt>Menu&nbsp;for&nbsp;the&nbsp;revenue&nbsp;analysis<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+selection&nbsp;:&nbsp;string&nbsp;-&nbsp;user&nbsp;entry</tt></dd></dl>
+ <dl><dt><a name="-sqrt"><strong>sqrt</strong></a>(x, /)</dt><dd><tt>Return&nbsp;the&nbsp;square&nbsp;root&nbsp;of&nbsp;x.</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>budget_list</strong> = [25, 6, 8, 185, 3, 63, 22, 20, 1, 13, 3, 55, 11, 165, 94, 160, 93, 14, 79, 19, ...]<br>
+<strong>dictionary</strong> = {'Action': 14646, 'Adventure': 6881, 'Animation': 4742, 'Comedy': 906, 'Crime': 1296, 'Drama': 2734, 'Fantasy': 8832, 'History': 420, 'Romance': 1469, 'Science Fiction': 16802, ...}<br>
+<strong>file</strong> = 'Assignment1_Dataset.csv'<br>
+<strong>list_genre</strong> = ['Drama', 'Crime', 'Thriller', 'Crime', 'Drama', 'Drama', 'Drama', 'Comedy', 'Thriller', 'Crime', 'Drama', 'Comedy', 'Science Fiction', 'Science Fiction', 'Fantasy', 'Science Fiction', 'Fantasy', 'History', 'Fantasy', 'Adventure', ...]<br>
+<strong>revenue_list</strong> = [28, 245, 213, 1004, 13, 100, 321, 229, 32, 47, 108, 677, 775, 675, 1118, 825, 871, 233, 926, 381, ...]<br>
+<strong>select_chart</strong> = ''<br>
+<strong>select_var</strong> = 'x'</td></tr></table>
+</body></html>
